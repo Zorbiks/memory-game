@@ -6,7 +6,12 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #efefef;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    background-image: url("./assets/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-blend-mode: overlay; */
 }
 
 .container {
@@ -16,11 +21,11 @@ body {
 }
 
 .game-container {
-    margin-bottom: 8rem;
+    margin-bottom: 1rem;
 }
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(256px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 1rem;
 }

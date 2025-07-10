@@ -12,8 +12,8 @@ import FrogSrc from "./assets/frog.png";
 import MagusSrc from "./assets/magus.png";
 import RoboSrc from "./assets/robo.png";
 import CyrusSrc from "./assets/cyrus.png";
-import SlashSrc from "./assets/slash.jpg";
-import AylaSrc from "./assets/ayla.jpg";
+import SlashSrc from "./assets/slash.png";
+import AylaSrc from "./assets/ayla.png";
 
 
 const App = () => {
